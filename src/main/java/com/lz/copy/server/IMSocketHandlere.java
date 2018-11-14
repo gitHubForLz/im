@@ -14,28 +14,29 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 
 import java.io.UnsupportedEncodingException;
 
-public class MySocketHandlere extends ChannelInboundHandlerAdapter {
+public class IMSocketHandlere extends ChannelInboundHandlerAdapter {
     public static ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
     private WebSocketServerHandshaker handshaker;
     private final String wsUri = "/ws"; //websocket握手升级绑定页面 String wsFactoryUri = "";
+
     /*
      *握手建立
      */
-
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
         io.netty.channel.Channel channel = ctx.channel();
         channels.add(channel);
     }
+
     /*
      * 握手取消
      */
-
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
-        io.netty.channel.Channel  incoming = ctx.channel();
+        io.netty.channel.Channel incoming = ctx.channel();
         channels.remove(incoming);
     }
+
     /*
      * channelAction
      *
@@ -44,7 +45,6 @@ public class MySocketHandlere extends ChannelInboundHandlerAdapter {
      * 当客户端主动链接服务端的链接后，这个通道就是活跃的了。
      *
      */
-
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         //
         System.out.println(ctx.channel().localAddress().toString() + " 通道已激活！");
@@ -60,7 +60,8 @@ public class MySocketHandlere extends ChannelInboundHandlerAdapter {
      */
     public void channelInactive(ChannelHandlerContext ctx) throws Exception { //
         System.out.println(ctx.channel().localAddress().toString() + " 通道不活跃！");
-    } /*
+    }
+    /*
      *功能：读取 h5页面发送过来的信息
      */
 
@@ -76,10 +77,9 @@ public class MySocketHandlere extends ChannelInboundHandlerAdapter {
     }
 
     /*
-}
-}
-*功能：读空闲时移除Channel
-        */
+
+     *功能：读空闲时移除Channel
+     */
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws
             Exception {
