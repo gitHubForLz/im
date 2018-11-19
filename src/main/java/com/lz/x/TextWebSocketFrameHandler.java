@@ -1,4 +1,4 @@
-package com.lz.server;
+package com.lz.x;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;

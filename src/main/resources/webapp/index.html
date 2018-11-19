@@ -18,7 +18,7 @@
 <script type="text/javascript">
     var ipaddress = "127.0.0.1";
     //新建socket对象
-    window.socket = new WebSocket("ws://" + ipaddress + ":9999/webssss?request=33&name=张三&age=18");
+    window.socket = new WebSocket("ws://" + ipaddress + ":8080/websocket?request=33&name=张三&age=18");
     //监听netty服务器消息并打印到页面上
     socket.onmessage = function (event) {
         var datas = event.data.split(",");

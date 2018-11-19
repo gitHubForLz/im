@@ -6,6 +6,10 @@ import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.codec.http.websocketx.extensions.compression.WebSocketServerCompressionHandler;
+import io.netty.handler.codec.redis.RedisArrayAggregator;
+import io.netty.handler.codec.redis.RedisBulkStringAggregator;
+import io.netty.handler.codec.redis.RedisDecoder;
+import io.netty.handler.codec.redis.RedisEncoder;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
 /**
@@ -23,17 +27,21 @@ public class ChildChannelHandler extends ChannelInitializer<SocketChannel> {
         e.pipeline().addLast("http-codec", new HttpServerCodec());
 // HttpObjectAggregator：将HTTP消息的多个部分合成一条完整的HTTP消息
         e.pipeline().addLast("aggregator", new HttpObjectAggregator(65536));
-// ChunkedWriteHandler：向客户端发送HTML5文件
-        e.pipeline().addLast("http-chunked", new ChunkedWriteHandler());
-// 在管道中添加我们自己的接收数据实现方法
-//         e.pipeline().addLast("handler",new MyWebSocketServerHandler());
-//         e.pipeline().addLast("static-file", new HttpStaticFileServerHandler());
+
+        // e.pipeline().addLast("text", new TextWebSocketFrameHandler());
         e.pipeline().addLast(new WebSocketServerProtocolHandler("/webssss", null, true));
         e.pipeline().addLast(new WebSocketServerCompressionHandler());
-        e.pipeline().addLast("socket", new WebSocketServerHandler());
-        // e.pipeline().addLast("text", new TextWebSocketFrameHandler());
+        e.pipeline().addLast("socket", new IMCoreServerHandler());
 
+        // redis全家桶
+        e.pipeline().addLast(new RedisDecoder());
+        e.pipeline().addLast(new RedisBulkStringAggregator());
+        e.pipeline().addLast(new RedisArrayAggregator());
+        e.pipeline().addLast(new RedisEncoder());
+
+        // ChunkedWriteHandler：向客户端发送HTML5文件
+        e.pipeline().addLast("http-chunked", new ChunkedWriteHandler());
+        // e.pipeline().addLast("static-file", new HttpStaticFileServerHandler());
     }
-    // e.pipeline().addLast("hello",new HttpHelloWorldServerHandler());
 }
 

@@ -1,4 +1,4 @@
-package com.lz.server;
+package com.lz.x;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
