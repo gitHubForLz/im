@@ -1,0 +1,938 @@
+2018-11-16 15:31:52,659 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 15:31:52,682 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 15:31:52,728 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 15:31:52,729 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 15:31:52,745 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 15:31:52,747 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 15:31:52,748 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 15:31:52,750 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 15:31:52,751 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 15:31:52,752 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 15:31:52,753 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 15:31:52,754 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 15:31:52,754 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 15:31:52,754 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 15:31:52,754 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 15:31:52,755 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 15:31:52,758 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 15:31:52,759 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 15:31:52,760 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 15:31:52,761 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 15:31:52,761 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 15:31:52,769 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 15:31:53,033 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 15:31:53,035 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 15:31:53,035 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 15:31:53,130 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 15:31:53,131 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 15:31:53,248 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 15:31:53,253 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 15:31:53,253 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 15:31:53,264 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 15:31:53,265 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 15:31:53,295 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 15:31:53,295 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 15:31:53,295 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 15:31:53,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 15:31:53,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 15:31:53,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 15:31:53,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 15:31:53,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 15:31:53,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 15:31:53,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 15:31:53,297 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 15:31:53,305 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 15:31:53,305 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 15:31:53,305 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 15:32:17,387 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 15:32:17,387 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 15:32:17,389 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 15:32:17,427 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 15:32:17,427 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 15:32:17,436 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 15:32:17,436 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 15:32:17,436 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 15:32:17,439 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 15:32:17,461 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 15:32:17,465 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 15:32:17,480 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 15:32:17,480 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 15:32:17,487 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 15:32:17,487 [nioEventLoopGroup-3-1] [com.lz.x.WebSocketServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 15:32:17,488 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 15:32:17,661 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 15:32:17,661 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 15:32:17,662 [nioEventLoopGroup-3-1] [com.lz.x.WebSocketServerHandler] [INFO] - /0:0:0:0:0:0:0:1:41099[SYSTEM]+[ONLINE]+[Fri Nov 16 15:32:17 CST 2018]+[123]+[login sucess]
+2018-11-16 15:32:17,662 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 15:32:17,663 [nioEventLoopGroup-3-1] [com.lz.x.WebSocketServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 15:32:17,663 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=69
+2018-11-16 15:32:40,368 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 15:32:40,387 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 15:32:40,427 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 15:32:40,428 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 15:32:40,442 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 15:32:40,444 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 15:32:40,444 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 15:32:40,446 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 15:32:40,447 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 15:32:40,447 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 15:32:40,449 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 15:32:40,449 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 15:32:40,450 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 15:32:40,450 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 15:32:40,450 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 15:32:40,450 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 15:32:40,452 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 15:32:40,453 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 15:32:40,453 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 15:32:40,454 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 15:32:40,455 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 15:32:40,463 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 15:32:40,787 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 15:32:40,789 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 15:32:40,789 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 15:32:40,920 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 15:32:40,921 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 15:32:41,383 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 15:32:41,387 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 15:32:41,387 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 15:32:41,395 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 15:32:41,395 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 15:32:41,415 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 15:32:41,417 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 15:32:41,417 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 15:32:41,418 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 15:32:41,418 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 15:32:41,418 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 15:32:41,418 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 15:32:41,418 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 15:32:41,418 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 15:32:41,418 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 15:32:41,419 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 15:32:41,426 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 15:32:41,426 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 15:32:41,427 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 15:32:51,994 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 15:32:51,995 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 15:32:51,996 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 15:32:52,026 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 15:32:52,026 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 15:32:52,032 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 15:32:52,032 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 15:32:52,032 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 15:32:52,033 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 15:32:52,050 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 15:32:52,055 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 15:32:52,069 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 15:32:52,070 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 15:32:52,075 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 15:32:52,075 [nioEventLoopGroup-3-1] [com.lz.x.WebSocketServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 15:32:52,075 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 15:33:15,373 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 15:33:15,373 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 15:33:15,374 [nioEventLoopGroup-3-1] [com.lz.x.WebSocketServerHandler] [INFO] - /0:0:0:0:0:0:0:1:41202[SYSTEM]+[ONLINE]+[Fri Nov 16 15:33:15 CST 2018]+[ssrzl]+[login sucess]
+2018-11-16 15:33:15,374 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 15:33:15,375 [nioEventLoopGroup-3-1] [com.lz.x.WebSocketServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 15:33:15,375 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=71
+2018-11-16 15:46:28,937 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 15:46:28,938 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 15:46:28,983 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 15:46:28,983 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 15:46:28,984 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 15:46:28,984 [nioEventLoopGroup-3-2] [com.lz.x.WebSocketServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 15:46:28,984 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 15:46:29,270 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 15:46:29,270 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 15:46:29,271 [nioEventLoopGroup-3-2] [com.lz.x.WebSocketServerHandler] [INFO] - /0:0:0:0:0:0:0:1:42913[SYSTEM]+[ONLINE]+[Fri Nov 16 15:46:29 CST 2018]+[扫的]+[login sucess]
+2018-11-16 15:46:29,271 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 15:46:29,271 [nioEventLoopGroup-3-2] [com.lz.x.WebSocketServerHandler] [INFO] - [ONLINECOUNT]2
+2018-11-16 15:46:29,272 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=72
+2018-11-16 15:46:53,032 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 15:46:53,033 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 15:46:53,034 [nioEventLoopGroup-3-2] [com.lz.x.WebSocketServerHandler] [INFO] - /0:0:0:0:0:0:0:1:42913[CLIENT]+[SEND]+[2018/11/16 下午3:46:53]+[扫的]+[大家好大地方保护
+对方是否都是
+防守打法
+发送到
+]+[ALL]
+2018-11-16 15:46:53,035 [nioEventLoopGroup-3-2] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 15:46:53,035 [nioEventLoopGroup-3-1] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=151
+2018-11-16 15:46:53,035 [nioEventLoopGroup-3-2] [com.lz.x.WebSocketServerHandler] [INFO] - [ONLINECOUNT]2
+2018-11-16 16:59:31,648 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 16:59:31,657 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 16:59:31,735 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 16:59:31,737 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 16:59:31,759 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 16:59:31,762 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 16:59:31,763 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 16:59:31,769 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 16:59:31,771 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 16:59:31,772 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 16:59:31,773 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 16:59:31,774 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 16:59:31,774 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 16:59:31,775 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 16:59:31,775 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 16:59:31,775 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 16:59:31,777 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 16:59:31,779 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 16:59:31,780 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 16:59:31,781 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 16:59:31,781 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 16:59:31,795 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 16:59:32,372 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 16:59:32,375 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 16:59:32,375 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 16:59:32,480 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 16:59:32,481 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 16:59:32,609 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 16:59:32,614 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 16:59:32,615 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 16:59:32,625 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 16:59:32,625 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 16:59:32,655 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 16:59:32,655 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 16:59:32,656 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 16:59:32,656 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 16:59:32,656 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 16:59:32,656 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 16:59:32,656 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 16:59:32,656 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 16:59:32,657 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 16:59:32,657 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 16:59:32,657 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 16:59:32,665 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 16:59:32,666 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 16:59:32,666 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 16:59:54,510 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 16:59:54,518 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 16:59:54,583 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 16:59:54,586 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 16:59:54,603 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 16:59:54,605 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 16:59:54,606 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 16:59:54,608 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 16:59:54,610 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 16:59:54,610 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 16:59:54,611 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 16:59:54,612 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 16:59:54,613 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 16:59:54,613 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 16:59:54,613 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 16:59:54,614 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 16:59:54,616 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 16:59:54,617 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 16:59:54,618 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 16:59:54,622 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 16:59:54,622 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 16:59:54,630 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 16:59:54,972 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 16:59:54,974 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 16:59:54,975 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 16:59:55,179 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 16:59:55,180 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 16:59:55,349 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 16:59:55,355 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 16:59:55,355 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 16:59:55,367 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 16:59:55,367 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 16:59:55,383 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 16:59:55,408 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 16:59:55,409 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 16:59:55,409 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:01:59,680 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:01:59,684 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:01:59,744 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:01:59,747 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:01:59,763 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:01:59,765 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:01:59,765 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:01:59,767 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:01:59,768 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:01:59,769 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:01:59,770 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:01:59,771 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:01:59,771 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:01:59,771 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:01:59,772 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:01:59,772 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:01:59,774 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:01:59,776 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:01:59,776 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:01:59,778 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:01:59,778 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:01:59,786 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:02:00,055 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:02:00,058 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:02:00,059 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:02:00,246 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:02:00,247 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:02:00,442 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:02:00,448 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:02:00,448 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:02:00,459 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:02:00,459 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:02:00,488 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:02:00,489 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:02:00,489 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:02:00,489 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:02:00,489 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:02:00,489 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:02:00,490 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:02:00,490 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:02:00,490 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:02:00,490 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:02:00,490 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:02:00,499 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:02:00,499 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:02:00,499 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:02:08,881 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:02:08,882 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:02:08,883 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:02:08,942 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:02:08,942 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:02:14,413 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:02:14,414 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:02:14,414 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:02:14,414 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:02:33,719 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:02:33,725 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:02:33,782 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:02:33,784 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:02:33,801 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:02:33,803 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:02:33,803 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:02:33,805 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:02:33,806 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:02:33,807 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:02:33,808 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:02:33,809 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:02:33,809 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:02:33,809 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:02:33,809 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:02:33,810 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:02:33,812 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:02:33,814 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:02:33,814 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:02:33,818 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:02:33,818 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:02:33,825 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:02:34,125 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:02:34,127 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:02:34,128 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:02:34,277 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:02:34,278 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:02:34,457 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:02:34,463 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:02:34,464 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:02:34,476 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:02:34,477 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:02:34,515 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:02:34,515 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:02:34,516 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:02:34,516 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:02:34,516 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:02:34,516 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:02:34,517 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:02:34,517 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:02:34,517 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:02:34,518 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:02:34,518 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:02:34,527 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:02:34,527 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:02:34,527 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:02:37,391 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:02:37,391 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:02:37,393 [nioEventLoopGroup-3-2] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:02:37,424 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:02:37,424 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:02:37,454 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:02:37,454 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:02:37,454 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:02:37,454 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:03:00,249 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:03:00,252 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:03:00,279 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:03:00,280 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:03:00,283 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:03:00,284 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:03:00,284 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:03:10,014 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:03:10,014 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:03:10,016 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:2345[SYSTEM]+[ONLINE]+[Fri Nov 16 17:03:10 CST 2018]+[ssrzl]+[login sucess]
+2018-11-16 17:03:10,017 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:03:10,018 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 17:03:10,019 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=71
+2018-11-16 17:03:21,005 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:03:21,006 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:03:21,009 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:03:21,009 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:03:21,010 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:03:21,011 [nioEventLoopGroup-3-6] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 17:03:21,011 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:03:24,432 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:03:24,433 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:03:24,434 [nioEventLoopGroup-3-6] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:2359[SYSTEM]+[ONLINE]+[Fri Nov 16 17:03:24 CST 2018]+[2]+[login sucess]
+2018-11-16 17:03:24,435 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:03:24,437 [nioEventLoopGroup-3-6] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]2
+2018-11-16 17:03:24,438 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=67
+2018-11-16 17:03:27,654 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:03:27,654 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:03:27,659 [nioEventLoopGroup-3-6] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:2359[CLIENT]+[SEND]+[2018/11/16 下午5:03:27]+[2]+[dsa ]+[ALL]
+2018-11-16 17:03:27,660 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=82
+2018-11-16 17:03:27,660 [nioEventLoopGroup-3-6] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:03:27,662 [nioEventLoopGroup-3-6] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]2
+2018-11-16 17:31:57,498 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:31:57,502 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:31:57,582 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:31:57,584 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:31:57,601 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:31:57,603 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:31:57,603 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:31:57,605 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:31:57,606 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:31:57,606 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:31:57,607 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:31:57,608 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:31:57,609 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:31:57,609 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:31:57,609 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:31:57,610 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:31:57,611 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:31:57,612 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:31:57,613 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:31:57,617 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:31:57,617 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:31:57,625 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:31:57,909 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:31:57,911 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:31:57,911 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:31:58,023 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:31:58,024 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:31:58,254 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:31:58,260 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:31:58,260 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:31:58,270 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:31:58,270 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:31:58,295 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:31:58,295 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:31:58,295 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:31:58,295 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:31:58,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:31:58,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:31:58,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:31:58,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:31:58,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:31:58,296 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:31:58,297 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:31:58,307 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:31:58,307 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:31:58,308 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:32:06,893 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:32:06,893 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:32:06,895 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:32:06,929 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:32:06,929 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:32:21,896 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:32:21,897 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:32:21,897 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:32:21,897 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:35:32,063 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:35:32,072 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:35:32,143 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:35:32,145 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:35:32,163 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:35:32,165 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:35:32,166 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:35:32,168 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:35:32,168 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:35:32,170 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:35:32,171 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:35:32,172 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:35:32,172 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:35:32,173 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:35:32,173 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:35:32,174 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:35:32,175 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:35:32,177 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:35:32,177 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:35:32,181 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:35:32,181 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:35:32,190 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:35:32,471 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:35:32,473 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:35:32,474 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:35:32,577 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:35:32,578 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:35:32,887 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:35:32,892 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:35:32,893 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:35:32,903 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:35:32,904 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:35:32,933 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:35:32,933 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:35:32,934 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:35:32,934 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:35:32,934 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:35:32,934 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:35:32,934 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:35:32,935 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:35:32,935 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:35:32,935 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:35:32,935 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:35:32,944 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:35:32,944 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:35:32,945 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:35:38,528 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:35:38,528 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:35:38,529 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:35:38,562 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:35:38,562 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:35:41,501 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:35:41,501 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:35:41,502 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:35:41,502 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:37:00,998 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:37:01,021 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:37:01,076 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:37:01,078 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:37:01,098 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:37:01,100 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:37:01,104 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:37:01,106 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:37:01,108 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:37:01,109 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:37:01,111 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:37:01,113 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:37:01,113 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:37:01,113 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:37:01,114 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:37:01,115 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:37:01,116 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:37:01,118 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:37:01,118 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:37:01,119 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:37:01,120 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:37:01,129 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:37:01,402 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:37:01,404 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:37:01,404 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:37:01,518 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:37:01,520 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:37:01,735 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:37:01,743 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:37:01,743 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:37:01,761 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:37:01,762 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:37:01,798 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:37:01,799 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:37:01,801 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:37:01,801 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:37:01,801 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:37:01,801 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:37:01,801 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:37:01,802 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:37:01,802 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:37:01,802 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:37:01,802 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:37:01,814 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:37:01,815 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:37:01,815 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:37:06,851 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:37:06,851 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:37:06,853 [nioEventLoopGroup-3-2] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:37:06,885 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:37:06,885 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:37:06,906 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:37:06,906 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:37:06,906 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:37:06,906 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:37:06,988 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:37:06,992 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:37:07,004 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:37:07,004 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:37:07,008 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:37:07,009 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:37:07,009 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:38:32,953 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:38:32,960 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:38:33,047 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:38:33,049 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:38:33,065 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:38:33,067 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:38:33,068 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:38:33,069 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:38:33,070 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:38:33,071 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:38:33,072 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:38:33,072 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:38:33,073 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:38:33,073 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:38:33,073 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:38:33,074 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:38:33,075 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:38:33,076 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:38:33,077 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:38:33,078 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:38:33,078 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:38:33,086 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:38:33,586 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:38:33,589 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:38:33,590 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:38:33,694 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:38:33,695 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:38:33,814 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:38:33,819 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:38:33,819 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:38:33,833 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:38:33,833 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:38:33,860 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:38:33,860 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:38:33,860 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:38:33,860 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:38:33,860 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:38:33,861 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:38:33,861 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:38:33,861 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:38:33,861 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:38:33,861 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:38:33,861 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:38:33,870 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:38:33,870 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:38:33,870 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:38:37,887 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:38:37,887 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:38:37,888 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:38:37,920 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:38:37,921 [nioEventLoopGroup-3-1] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:38:37,942 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:38:37,942 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:38:37,942 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:38:37,942 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:38:39,276 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:38:39,280 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:38:39,315 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:38:39,316 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:38:39,320 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:38:39,321 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:38:39,321 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:38:42,155 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:38:42,155 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:38:42,157 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:3812[SYSTEM]+[ONLINE]+[Fri Nov 16 17:38:42 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:38:42,158 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:3812[SYSTEM]+[ONLINE]+[Fri Nov 16 17:38:42 CST 2018]+[ssrzl]+[1]
+2018-11-16 17:38:42,159 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:38:42,160 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 17:38:42,161 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=60
+2018-11-16 17:39:41,550 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:39:41,550 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:39:41,551 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=8 length=2
+2018-11-16 17:39:41,552 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:3812[logoff]
+2018-11-16 17:39:43,235 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:39:43,235 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:39:43,240 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:39:43,241 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:39:43,241 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:39:43,242 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:39:43,243 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:39:44,338 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:39:44,339 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:41:20,915 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:3925[SYSTEM]+[ONLINE]+[Fri Nov 16 17:41:20 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:41:20,916 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:3925[SYSTEM]+[ONLINE]+[Fri Nov 16 17:41:20 CST 2018]+[ssrzl]+[1]
+2018-11-16 17:41:20,917 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:41:20,918 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 17:41:20,919 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=60
+2018-11-16 17:41:57,695 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:41:57,699 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:41:57,746 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:41:57,749 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:41:57,764 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:41:57,766 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:41:57,767 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:41:57,769 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:41:57,770 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:41:57,771 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:41:57,771 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:41:57,772 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:41:57,773 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:41:57,773 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:41:57,773 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:41:57,774 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:41:57,775 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:41:57,777 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:41:57,777 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:41:57,782 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:41:57,782 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:41:57,789 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:41:58,048 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:41:58,050 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:41:58,050 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:41:58,190 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:41:58,191 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:41:58,383 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:41:58,389 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:41:58,389 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:41:58,399 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:41:58,399 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:41:58,425 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:41:58,425 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:41:58,425 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:41:58,425 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:41:58,426 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:41:58,426 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:41:58,426 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:41:58,426 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:41:58,426 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:41:58,426 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:41:58,427 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:41:58,437 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:41:58,438 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:41:58,438 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:42:00,555 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:42:00,555 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:42:00,557 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:42:00,590 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:42:00,591 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:42:00,621 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:42:00,621 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:42:00,622 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:42:00,622 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:42:03,988 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:42:03,993 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:42:04,032 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:42:04,032 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:42:04,035 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:42:04,036 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:42:04,036 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:42:16,778 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:42:16,779 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:42:22,319 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4189[SYSTEM]+[ONLINE]+[Fri Nov 16 17:42:21 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:42:46,994 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:42:46,995 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:42:49,955 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4189[SYSTEM]+[ONLINE]+[Fri Nov 16 17:42:49 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:43:00,698 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:43:00,698 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:43:00,700 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4189[SYSTEM]+[ONLINE]+[Fri Nov 16 17:43:00 CST 2018]+[a]+[0]
+2018-11-16 17:43:04,545 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:43:04,546 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:43:04,547 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4189[SYSTEM]+[ONLINE]+[Fri Nov 16 17:43:04 CST 2018]+[a]+[0]
+2018-11-16 17:43:18,562 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:43:18,562 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:43:18,564 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4189[SYSTEM]+[ONLINE]+[Fri Nov 16 17:43:18 CST 2018]+[a]+[0]
+2018-11-16 17:43:27,817 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:43:27,818 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:43:27,819 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4189[SYSTEM]+[ONLINE]+[Fri Nov 16 17:43:27 CST 2018]+[a]+[0]
+2018-11-16 17:43:28,729 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:43:28,730 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:43:28,731 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4189[SYSTEM]+[ONLINE]+[Fri Nov 16 17:43:28 CST 2018]+[a]+[0]
+2018-11-16 17:43:59,966 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:43:59,966 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:43:59,968 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=8 length=2
+2018-11-16 17:44:01,157 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:44:01,157 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:44:01,164 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:44:01,164 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:44:01,165 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:44:01,165 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:44:01,165 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:44:12,123 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:44:12,123 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:44:12,125 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:44:12 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:44:13,937 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:44:13,938 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:44:13,942 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:44:13 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:44:35,745 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:44:35,746 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:44:35,747 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:44:35 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:44:36,945 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:44:36,946 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:44:36,947 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:44:36 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:44:57,953 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:44:57,954 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:44:57,955 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:44:57 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:45:01,106 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:45:01,107 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:45:01,108 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:45:01 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:45:01,578 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:45:01,579 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:45:01,580 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:45:01 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:45:01,817 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:45:01,818 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:45:01,819 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:45:01 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:45:02,802 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:45:02,802 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:45:02,803 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:45:02 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:45:03,594 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:45:03,594 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:45:03,595 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:45:03 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:45:21,226 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:45:21,226 [nioEventLoopGroup-3-5] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:45:37,988 [nioEventLoopGroup-3-5] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4381[SYSTEM]+[ONLINE]+[Fri Nov 16 17:45:27 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:45:52,439 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:45:52,450 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:45:52,505 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:45:52,507 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:45:52,523 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:45:52,525 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:45:52,525 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:45:52,527 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:45:52,529 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:45:52,530 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:45:52,531 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:45:52,532 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:45:52,533 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:45:52,533 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:45:52,533 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:45:52,534 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:45:52,535 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:45:52,537 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:45:52,537 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:45:52,538 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:45:52,539 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:45:52,546 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:45:52,818 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:45:52,820 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:45:52,821 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:45:52,923 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:45:52,924 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:45:53,151 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:45:53,156 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:45:53,157 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:45:53,167 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:45:53,167 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:45:53,196 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:45:53,196 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:45:53,197 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:45:53,197 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:45:53,197 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:45:53,197 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:45:53,197 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:45:53,198 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:45:53,203 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:45:53,203 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:45:53,204 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:45:53,213 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:45:53,214 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:45:53,214 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:46:08,284 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:46:08,284 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:46:08,286 [nioEventLoopGroup-3-2] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:46:08,317 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:46:08,317 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:46:08,336 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:46:08,337 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:46:08,337 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:46:08,337 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:46:11,375 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:46:11,380 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:46:23,784 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:46:23,785 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:46:23,794 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:46:23,795 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:46:23,796 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:47:44,227 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:47:44,228 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:47:44,229 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4637[SYSTEM]+[ONLINE]+[Fri Nov 16 17:47:44 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:47:44,230 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:47:44,232 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:47:44,233 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=60
+2018-11-16 17:48:47,814 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:48:47,815 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:48:47,816 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4637[SYSTEM]+[ONLINE]+[Fri Nov 16 17:48:47 CST 2018]+[a]+[0]
+2018-11-16 17:48:47,817 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:48:47,818 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:48:47,819 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=56
+2018-11-16 17:49:09,525 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:49:09,526 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:49:09,526 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4637[SYSTEM]+[ONLINE]+[Fri Nov 16 17:49:09 CST 2018]+[a]+[0]
+2018-11-16 17:49:09,527 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:49:09,528 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:49:09,529 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=56
+2018-11-16 17:49:58,986 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:49:58,986 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:50:50,252 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:4637[SYSTEM]+[ONLINE]+[Fri Nov 16 17:50:50 CST 2018]+[a]+[0]
+2018-11-16 17:50:50,254 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:50:50,256 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:50:50,257 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=56
+2018-11-16 17:52:25,082 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2018-11-16 17:52:25,089 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2018-11-16 17:52:25,136 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2018-11-16 17:52:25,138 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2018-11-16 17:52:25,154 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2018-11-16 17:52:25,156 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2018-11-16 17:52:25,156 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2018-11-16 17:52:25,158 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2018-11-16 17:52:25,160 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2018-11-16 17:52:25,161 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2018-11-16 17:52:25,161 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2018-11-16 17:52:25,162 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2018-11-16 17:52:25,163 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-11-16 17:52:25,163 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2018-11-16 17:52:25,163 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2018-11-16 17:52:25,164 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2018-11-16 17:52:25,165 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2018-11-16 17:52:25,167 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2018-11-16 17:52:25,167 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2018-11-16 17:52:25,169 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2018-11-16 17:52:25,169 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2018-11-16 17:52:25,177 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2018-11-16 17:52:25,436 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2018-11-16 17:52:25,438 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2018-11-16 17:52:25,439 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2018-11-16 17:52:25,612 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2018-11-16 17:52:25,613 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2018-11-16 17:52:25,812 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2018-11-16 17:52:25,821 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2018-11-16 17:52:25,821 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2018-11-16 17:52:25,833 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:52:25,834 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2018-11-16 17:52:25,868 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2018-11-16 17:52:25,869 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2018-11-16 17:52:25,869 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2018-11-16 17:52:25,869 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2018-11-16 17:52:25,869 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2018-11-16 17:52:25,869 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2018-11-16 17:52:25,870 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2018-11-16 17:52:25,870 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2018-11-16 17:52:25,870 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2018-11-16 17:52:25,870 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2018-11-16 17:52:25,870 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2018-11-16 17:52:25,878 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2018-11-16 17:52:25,878 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2018-11-16 17:52:25,878 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2018-11-16 17:52:39,205 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:52:39,205 [nioEventLoopGroup-3-2] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2018-11-16 17:52:39,207 [nioEventLoopGroup-3-2] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2018-11-16 17:52:39,242 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibDecoder: {}
+2018-11-16 17:52:39,242 [nioEventLoopGroup-3-2] [io.netty.handler.codec.compression.ZlibCodecFactory] [DEBUG] - -Dio.netty.noJdkZlibEncoder: {}
+2018-11-16 17:52:39,262 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2018-11-16 17:52:39,263 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2018-11-16 17:52:39,263 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2018-11-16 17:52:39,263 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2018-11-16 17:52:40,650 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - {} WebSocket version {} server handshake
+2018-11-16 17:52:40,653 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] [DEBUG] - WebSocket version 13 server handshake key: {}, response: {}
+2018-11-16 17:52:40,694 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:52:40,694 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:52:40,698 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:52:40,698 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:52:40,699 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=73
+2018-11-16 17:52:42,179 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:52:42,180 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:52:42,182 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:5316[SYSTEM]+[ONLINE]+[Fri Nov 16 17:52:42 CST 2018]+[ssrzl]+[0]
+2018-11-16 17:52:42,183 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:52:42,184 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]0
+2018-11-16 17:52:42,185 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=60
+2018-11-16 17:52:48,306 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame opCode={}
+2018-11-16 17:52:48,306 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder] [DEBUG] - Decoding WebSocket Frame length={}
+2018-11-16 17:52:48,308 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - /0:0:0:0:0:0:0:1:5316[SYSTEM]+[ONLINE]+[Fri Nov 16 17:52:48 CST 2018]+[a]+[1]
+2018-11-16 17:52:48,308 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=64
+2018-11-16 17:52:48,310 [nioEventLoopGroup-3-3] [com.lz.server.IMCoreServerHandler] [INFO] - [ONLINECOUNT]1
+2018-11-16 17:52:48,311 [nioEventLoopGroup-3-3] [io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder] [DEBUG] - Encoding WebSocket Frame opCode=1 length=56
